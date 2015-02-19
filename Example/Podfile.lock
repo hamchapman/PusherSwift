@@ -1,0 +1,14 @@
+PODS:
+  - PusherSwift (0.1.0)
+
+DEPENDENCIES:
+  - PusherSwift (from `../`)
+
+EXTERNAL SOURCES:
+  PusherSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PusherSwift: 6aabc3ef398222b21fa133e34f925e9ba390004f
+
+COCOAPODS: 0.35.0

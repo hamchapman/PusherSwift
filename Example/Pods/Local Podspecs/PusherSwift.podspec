@@ -20,7 +20,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/pusher/PusherSwift.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/pusher
 
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
+
   s.source_files = 'Pod/Classes/**/*'
 
   # s.dependency 'AFNetworking', '~> 2.3'
