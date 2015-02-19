@@ -18,10 +18,13 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Hamilton Chapman" => "hamchapman@gmail.com" }
   s.source           = { :git => "https://github.com/pusher/PusherSwift.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/pusher
+  s.social_media_url = 'https://twitter.com/pusher'
 
   s.requires_arc = true
   s.source_files = 'Source/*.swift'
+
+  s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.9'
 
   s.dependency 'Alamofire', '~> 1.1'
   s.dependency 'Starscream', '~> 0.9.1'
