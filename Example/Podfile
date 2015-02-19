@@ -10,6 +10,4 @@ end
 
 target 'Tests', :exclusive => true do
   pod "PusherSwift", :path => "../"
-
-  
 end
